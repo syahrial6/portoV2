@@ -16,7 +16,7 @@ const Portofolio = () => {
             <img
               src="/images/home.png"
               alt="portofolio"
-              className="w-full object-cover flex justify-center items-center m-auto rounded-xl hover:scale-125 transition-all duration-500 cursor-pointer"
+              className="w-full object-cover flex justify-center items-center m-auto rounded-xl lg:hover:scale-125 transition-all duration-500 cursor-pointer hover:scale-110 transition-all duration-500 cursor-pointer"
             />
           </div>
           <div className="tech grid grid-cols-2 justify-center items-center my-4">
@@ -37,7 +37,7 @@ const Portofolio = () => {
             <img
               src="/images/todo.png"
               alt="portofolio"
-              className="w-full object-cover flex justify-center items-center m-auto rounded-xl hover:scale-125 transition-all duration-500 cursor-pointer"
+              className="w-full object-cover flex justify-center items-center m-auto rounded-xl lg:hover:scale-125 transition-all duration-500 cursor-pointer  hover:scale-110 transition-all duration-500 cursor-pointer"
             />
           </div>
           <div className="tech grid grid-cols-2 justify-center items-center my-4">
@@ -58,7 +58,7 @@ const Portofolio = () => {
             <img
               src="/images/porto.png"
               alt="portofolio"
-              className="w-full object-cover flex justify-center items-center m-auto rounded-xl hover:scale-125 transition-all duration-500 cursor-pointer"
+              className="w-full object-cover flex justify-center items-center m-auto rounded-xl lg:hover:scale-125 transition-all duration-500 cursor-pointer hover:scale-110 transition-all duration-500 cursor-pointer"
             />
           </div>
           <div className="tech grid grid-cols-2 justify-center items-center my-4">

@@ -1,11 +1,12 @@
 import React from "react";
+import * as motion from "motion/react-client";
 
 const Navbar = () => {
   return (
-    <div>
-    <div className="navbar flex mx-auto lg:justify-around text-white items-center w-[100%] h-[10%] my-3 absolute z-20 bg-transparent">
+    <div className="">
+    <div className="navbar flex mx-auto lg:justify-around backdrop-blur-sm text-white items-center w-[100%]   absolute z-20 border-b border-blue-300 lg:py-4 py-8">
       <div className="logo hidden lg:flex">
-        <p>Zenpay</p>
+        <p>Muhammad Syahrial</p>
       </div>
       <div className="">
         <ul className="menu flex gap-8 hidden lg:flex">
@@ -16,13 +17,14 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="auth hidden lg:flex gap-4 items-center justify-center">
-        <p>Sign In</p>
-        <p className="btn p-2 rounded-lg bg-white text-black">Sign Up</p>
+        <a href='https://www.instagram.com/syhrialm_/' target='_blank'>
+        <p className="btn p-2 rounded-lg bg-white text-black">Contact Me</p>
+        </a>
       </div>
     </div>
     <div className="responsive container m-auto lg:hidden mx-auto grid grid-cols-2 text-white w-[100%] h-[10%] my-3 absolute z-20 bg-transparent">
       <div className="logo ml-4 mt-2">
-        <p className="text text-xl">Zenpay</p>
+        <p className="text text-xl">Muhammad Syahrial</p>
       </div>
       <div className="menu-icon flex justify-end mr-4">
         <svg

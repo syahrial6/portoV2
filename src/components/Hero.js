@@ -22,6 +22,7 @@ const Hero = () => {
           visible: { opacity: 1, y: 0 }, // Berakhir dengan opacity 1 dan posisi normal
         }}
         transition={{
+          delay: 0.3, // Delay sebelum animasi dimulai
           duration: 1.0, // Durasi animasi dalam detik
           ease: "easeOut", // Gaya transisi
         }}
